@@ -26,46 +26,6 @@ A browser-based **AI companion face** that renders a 3D face, blinks naturally, 
 
 ---
 
-## 📁 Project Structure
-
-ai-companion-face/
-│
-├── public/
-│ └── models/
-│ └── face.glb
-│
-├── src/
-│ ├── app/
-│ │ └── AppShell.jsx
-│ │
-│ ├── ui/
-│ │ └── FaceCanvas.jsx
-│ │
-│ ├── face/
-│ │ ├── FaceModel.jsx
-│ │ └── FaceRigController.js
-│ │
-│ ├── core/
-│ │ ├── scene/
-│ │ │ └── CameraController.js
-│ │ │
-│ │ └── emotionState/
-│ │ ├── EmotionState.js
-│ │ ├── EmotionMapper.js
-│ │ └── EmotionTransition.js
-│ │
-│ ├── speech/
-│ │ └── TTS.js
-│ │
-│ ├── main.jsx
-│ └── style.css
-│
-├── index.html
-├── package.json
-└── README.md
-
-yaml
-Copy code
 
 ---
 
